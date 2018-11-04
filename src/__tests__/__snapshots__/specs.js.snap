@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test chat view 1`] = `
+<div
+  className="cr-container"
+>
+  <div
+    className="cr-chat-view"
+  >
+    <div
+      className="cr-chat-banner"
+    >
+      <h3>
+        Spot.IM
+      </h3>
+      <button
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </div>
+    <ul
+      className="chats"
+    />
+    <form
+      className="input"
+      onSubmit={[Function]}
+    >
+      <input
+        type="text"
+      />
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`test login to chat 1`] = `
+<div
+  className="cr-container"
+>
+  <div
+    className="cr-join-chat"
+  >
+    <h1
+      className="cr-main-title"
+    >
+      Welcom to Spot.IM Chat Room
+    </h1>
+    <h1
+      className="cr-title"
+    >
+      In order to join the chat please enter user name
+    </h1>
+    <div
+      className="cr-login-input"
+    >
+      <input
+        maxlength="30"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+      >
+        Start Chatting
+      </button>
+    </div>
+  </div>
+</div>
+`;
